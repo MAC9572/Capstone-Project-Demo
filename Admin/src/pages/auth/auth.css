@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.formpage{
+  background-image: url('./bg.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 4px;
+  border: 2px solid white;
+}
+
+button{
+  background-color: red;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+button:hover{
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.formpage{
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+label{
+  text-shadow:2px 2px 4px white;
+}
+

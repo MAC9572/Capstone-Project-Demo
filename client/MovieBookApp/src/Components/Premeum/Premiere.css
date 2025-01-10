@@ -1,0 +1,44 @@
+.premiereCard {
+    border-radius: 20px;
+    overflow: hidden;
+    /* border: 1px solid var(--col1); */
+   background-color: white;
+    width: 95%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    position: relative;
+    cursor: pointer;
+  
+}
+
+
+.premiereCard .premiereimg {
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+
+.premiereCard .details{
+    display: block;
+    padding: 5px;
+    text-align: center;
+  
+}
+
+
+
+.premiereCard .details .type{   
+    color: grey;
+}
+.premiere_cont{
+    background-color:  rgb(43, 49, 72);
+}
+.cont-1{
+    color: white;
+}
